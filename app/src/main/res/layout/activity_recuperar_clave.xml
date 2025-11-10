@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_gamer">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="30dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:contentDescription="Logo CoreAccess"
+        android:alpha="0.9"/>
+
+    <TextView
+        android:id="@+id/tvTituloRecuperar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recupera tu clave Guerrero!"
+        android:textSize="24sp"
+        android:textColor="#5C6BC0"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/etCorreoRecuperar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#1565C0"
+        android:textColorHint="#5C6BC0"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnRecoverConfirm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="ENVIAR ENLACE"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botonneon"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnVolverInicio"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="VOLVER AL INICIO"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botonneon" />
+</LinearLayout>

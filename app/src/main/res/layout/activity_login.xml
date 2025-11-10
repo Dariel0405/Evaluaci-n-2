@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_gamer">
+
+    <!-- 🔹 Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="30dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:contentDescription="Logo CoreAccess"
+        android:alpha="0.9" />
+
+    <!-- 🔹 Título -->
+    <TextView
+        android:id="@+id/tvTituloLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido Guerrero!"
+        android:textSize="24sp"
+        android:textColor="#E3F2FD"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp" />
+
+    <!-- 🔹 Contenedor del formulario -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/contenedor_fondo"
+        android:layout_margin="20dp"
+        android:elevation="6dp"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/etUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuario o correo"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#1565C0"
+            android:textColorHint="#5C6BC0"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/etContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#1565C0"
+            android:textColorHint="#5C6BC0"
+            android:textColor="#1565C0" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="ENTRAR"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/botonneon"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnVolverInicio"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="VOLVER AL INICIO"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/botonneon" />
+
+    </LinearLayout>
+</LinearLayout>

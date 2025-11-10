@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_gamer">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="30dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:contentDescription="Logo CoreAccess"
+        android:alpha="0.9" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CoreAccess"
+        android:textSize="26sp"
+        android:textColor="#5C6BC0"
+        android:textStyle="bold"
+        android:shadowRadius="8"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:id="@+id/btnIrLogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="INICIAR SESIÓN"
+        android:layout_marginBottom="25dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botonneon" />
+
+    <Button
+        android:id="@+id/btnIrRegistrar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTRAR CUENTA"
+        android:layout_marginBottom="25dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botonneon" />
+
+    <Button
+        android:id="@+id/btnIrRecuperar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="RECUPERAR CLAVE"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botonneon" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fondo_principal">#E0F7FA</color> <!-- Celeste pastel -->
+    <color name="colorBoton">#9575CD</color> <!-- Lila -->
+    <color name="colorTexto">#212121</color> <!-- Gris oscuro -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>
